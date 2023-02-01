@@ -1,0 +1,53 @@
+body {
+  
+}
+
+.nav-title {
+  font-weight: 700;
+  font-size: 30px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.button-text {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Bebas Neue', cursive;}
+
+.image-caption {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.main-title {
+  font-size: 46px;
+  font-weight: 700;
+  font-family: 'Bebas Neue', cursive;}
+
+.subheader-text {
+  font-size: 26px;
+  font-weight: 700;
+  font-family: 'Bebas Neue', cursive;}
+
+.body-text {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.project-card-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.project-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  font-family: 'Bebas Neue', cursive;}
