@@ -25,6 +25,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 96px;
+  align-items: center;
 }
 
 /* Portfolio Header */
@@ -88,29 +89,27 @@ body {
   flex-wrap: wrap;
 }
 
-    /* Project Cards */
+/* Project Cards */
 
-    .project-card {
-      max-width: calc((100% - 32px) / 3);
-      display: flex;
-      flex-direction: column;
-      gap: 34px;
-    }
+.project-card {
+  max-width: calc((100% - 32px) / 3);
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
 
-    .project-card-text-container {
-      flex-direction: column;
-      display: flex;
-      gap: 16px;
-    }
+.project-card-text-container {
+  flex-direction: column;
+  display: flex;
+  gap: 16px;
+}
 
-    .project-image {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-      object-position: center;
-    }
-
-
+.project-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
 
 
 /* Project Pages */
@@ -138,35 +137,51 @@ body {
   gap: 34px;
 }
 
-    /* Project Gallery */
+/* Project Gallery */
 
-    #project-gallery {
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-    }
+#project-gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
 
-    .project-gallery-content {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 34px 16px;
-    }
+.project-gallery-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 34px 16px;
+}
 
-    .gallery-image-container {
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      gap: 10px;
-    }
+.gallery-image-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
-    .gallery-image-container.half-width {
-      width: calc((100% - 16px) / 2);
-    }
+.gallery-image-container.half-width {
+  width: calc((100% - 16px) / 2);
+}
 
-    .gallery-image {
-      width: 100%;
-      height: auto;
-    }
+.gallery-image {
+  width: 100%;
+  height: auto;
+}
+
+/*Contact page*/
+
+.contact_form{
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: center;
+  padding: 20px 0 20px 0;
+}
+
+.contact_form a {
+  text-decoration: none;
+  color: black;
+} 
 
 
 /* Extra Extra large devices (large laptops and desktops, 1200px and below) */
