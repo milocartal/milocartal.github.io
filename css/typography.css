@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'normandy_beach_halftone';
+  src: url('../assets/normandyFont/normandybeachhalftone-lggyw-webfont.woff2') format('woff2'),
+       url('../assets/normandyFont/normandybeachhalftone-lggyw-webfont.woff') format('woff');
+  font-weight: 500;
+  font-style:normal;
+}
+
+@font-face {
+  font-family: 'normandy_beach_halftone_ita';
+  src: url('../assets/normandyFontIta/normandybeachhalftoneitalic-9yrd2-webfont.woff2') format('woff2'),
+       url('../assets/normandyFontIta/normandybeachhalftoneitalic-9yrd2-webfont.woff') format('woff');
+  font-weight: 500;
+  font-style:normal;
+}
 
 body {
   font-family: 'Bebas Neue', cursive;
@@ -10,9 +25,11 @@ body {
 }
 
 .button-text {
-  font-size: 20px;
-  font-weight: 700;
-  font-family: 'Bebas Neue', cursive;}
+  font-size: 25px;
+  /*font-family: 'Bebas Neue', cursive;*/
+  font-family: 'normandy_beach_halftone_ita', 'Bebas Nue', sans-serif;
+
+}
 
 .image-caption {
   font-size: 14px;
@@ -55,10 +72,9 @@ body {
 }
 
 .cv-title{
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 700;
-  /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-  font-family: 'normandy_beach_halftone_itaRg', Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .job-more{
