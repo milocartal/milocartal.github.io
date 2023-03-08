@@ -2,13 +2,14 @@
 <html lang="fr">
 	<head>
 		<meta charset="utf-8">
-    <link rel="icon" href="./assets/icons/ByMilo.png" />
+    <link rel="icon" href="../assets/icons/logoMilo.svg" />
 		<title>Milo CARTAL</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 		<link rel="stylesheet" href="../css/layout.css">
     <link rel="stylesheet" href="../css/typography.css">
     <link rel="stylesheet" href="../css/utilities.css">
+    <link rel="stylesheet" href="./webfontkit-20230308-104456/stylesheet.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,56 +20,70 @@
 	<body>
     <nav>
 
-      <a class="nav-title-link" href="../index.html">
-
+      <!--<a class="nav-title-link" href="./index.html">
         <span class="nav-title">Milo CARTAL</span>
+      </a>-->
 
-        <a class="button" id="my-work-link">
-          <span class="button-text">Mes Projets</span> 
-          <!--<image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>-->
-        </a>
+      <a href="../index.html">
+        <img src ="../assets/icons/logoMilo.svg" style="height: 45px;">
 
-        <a class="button" href="contact.html">
-          <span class="button-text">Contactez-moi</span>
-        </a>
-        
+      </a>
 
+      <a class="button" id="my-work-link" href="../index.html">
+        <span class="button-text">Mes Projets</span> 
+        <!--<image src="./assets/icons/arrow-right.svg" class="right-arrow-icon"/>-->
+      </a>
+
+      <a class="button" href="./contact.html">
+        <span class="button-text">Contactez-moi</span>
       </a>
 
     </nav>
 
     <div id="main-content">
 
-      <!--<div id="portfolio-header">
-        <div id="portfolio-header-image-container">
-
-          <img src="../assets/images/milo.jpeg" class="portfolio-header-image">
+      <div id="cv-section" style="font-family: 'normandy_beach_halftone_itaRg', Arial, sans-serif;">
+        <span class="subheader-text">Expériences Professionelles</span>
+        
+        <div class="cv-section-content">
+          <span class="cv-title"> Vendeur</span>
+          <span class="job-more"><i>Celio, depuis 2022</i></span>
+          <div class="body-text">Accueil et conseille des clients, aménagement du magasin, ménage, réception des colis et gestion de la réserve du magasin</div>
         </div>
 
-        <div id="portfolio-header-text-container">
-            <div class="header-text">
-              <span class="main-title">Bonjour, je suis Milo CARTAL </span>
-              <div class="body-text">Étudiant en informatique et passionné d'automobile, Gran Turismo est mon échappatoire !</div>
-            </div>
-            <a class="button" href="./project-pages/cv.html">
-              <span class="button-text">Mon CV</span> 
-            </a>
+        <div class="cv-section-content">
+          <span class="cv-title"> Technicien plateau son et lumière <i style="font-weight: 500;">Bénévolat</i></span>
+          <span class="job-more"><i>Festival des Cuivres du Monastier</i></span>
+          <div class="body-text">Mise en place et rangement du plateau, gestion de l'écran géant, rangement et organisation des flights.</div>
         </div>
-      </div>-->
 
-      <div id="about-section">
-        <span class="subheader-text">A propos de moi</span>
-        <div class="about-section-content">
-          <div class="body-text">Étudiant en 2<sup>ère</sup> année de BUT informatique graphique, je suis motivé et toujours présent pour aider les gens quand ils en ont besoin. Mon but est devenir développeur web. J'envisage à terme de travailler dans l'enseignement dans le domaine du développement web.</div>
+        <div class="cv-section-content">
+          <span class="cv-title"> Régisseur Technicien <i style="font-weight: 500;">Stage</i></span>
+          <span class="job-more"><i>MPT de Chadrac</i></span>
+          <div class="body-text">Mise en place d'enceintes, projecteurs et machines à fumée sur scène, gestion et entretien du matériel.</div>
         </div>
+
       </div>
       
-      <embed src="../assets/CV_Cartal_Milo.pdf" width="800" height="1200" type="application/pdf"/>
+      <div id="cv-section">
+        <span class="subheader-text">Formation</span>
+        
+        <div class="cv-section-content">
+          <span class="cv-title">BUT Informatique Graphique</span>
+          <span class="job-more"><i>IUT Le Puy-en-Velay, 2021-2023</i></span>
+        </div>
+
+        <div class="cv-section-content">
+          <span class="cv-title"> Baccalauréat Général <i style="font-weight: 500;">Spécialités Math - Physique Chimie - NSI</i></span>
+          <span class="job-more"><i>Lycée Charles & Adrien Dupuy, Le Puy-en-Velay, 2019-2021</i></span>
+        </div>
+
+      </div>
     </div>
 
-    
+    <embed src="../assets/CV_Cartal_Milo.pdf" width="800" height="1200" type="application/pdf"/>
 
-    <div id="footer">
+    <!--<div id="footer">
 
       <a class="icon-link" target="_blank" href="tel:+33649572160">
         <image src="./assets/icons/tel.png" class="footer-icon"/>
@@ -81,7 +96,7 @@
       <a class="icon-link" href="mailto:milo.cartal.pro@gmail.com">
         <image src="./assets/icons/mail.svg" class="footer-icon"/>
       </a>
-    </div>
+    </div>-->
 
 	</body>
 </html>
