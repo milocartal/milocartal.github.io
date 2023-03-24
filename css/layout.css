@@ -3,17 +3,19 @@
 }
 
 html{
-	scrollbar-width: none;
+	scrollbar-width: 9px;
 }
 
 html::-webkit-scrollbar {
   /*display: none;*/
   background: none;
+  width: 9px;
+
 }
 ::-webkit-scrollbar-thumb {
   border: solid 0 transparent;
   border-radius: 10px;
-  background-color: #dfdfdf;
+  background-color: #00000071;
 }
 
 html {
