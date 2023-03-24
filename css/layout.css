@@ -202,7 +202,7 @@ body {
 /*Contact page*/
 
 .contact_form {
-  
+  background-color: none;
   display: flex;
   flex-direction: column;
   width: 40%;
