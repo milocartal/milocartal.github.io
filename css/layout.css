@@ -2,8 +2,8 @@
   box-sizing: border-box;
 }
 
-html{
-	scrollbar-width: 9px;
+html {
+  scrollbar-width: 9px;
 }
 
 html::-webkit-scrollbar {
@@ -12,6 +12,7 @@ html::-webkit-scrollbar {
   width: 9px;
 
 }
+
 ::-webkit-scrollbar-thumb {
   border: solid 0 transparent;
   border-radius: 10px;
@@ -92,7 +93,7 @@ body {
 
 #cv-section {
   display: flex;
-  flex-flow:column;
+  flex-flow: column;
   gap: 30px;
   max-width: 600px;
 }
@@ -101,7 +102,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  
+
 }
 
 
@@ -199,7 +200,7 @@ body {
 
 /*Contact page*/
 
-.contact_form{
+.contact_form {
   background-color: gray;
   display: flex;
   flex-direction: column;
@@ -211,7 +212,7 @@ body {
 .contact_form a {
   text-decoration: none;
   color: black;
-} 
+}
 
 
 /* Extra Extra large devices (large laptops and desktops, 1200px and below) */
@@ -260,6 +261,3 @@ body {
     max-width: 100%;
   }
 }
-
-
-
