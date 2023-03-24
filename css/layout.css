@@ -8,7 +8,8 @@ html {
 
 html::-webkit-scrollbar {
   /*display: none;*/
-  background: none;
+ 
+  background: linear-gradient(32deg, rgba(218,37,37,1) 0%, rgba(79,53,237,1) 100%);
   width: 9px;
 
 }
@@ -91,7 +92,7 @@ body {
   margin-bottom: 10px;
 }
 
-#cv-section {
+.cv-section {
   display: flex;
   flex-flow: column;
   gap: 30px;
@@ -201,7 +202,7 @@ body {
 /*Contact page*/
 
 .contact_form {
-  background-color: gray;
+  
   display: flex;
   flex-direction: column;
   width: 40%;
