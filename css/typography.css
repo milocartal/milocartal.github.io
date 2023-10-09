@@ -14,45 +14,62 @@
   font-style: normal;
 }
 
-body {
-  font-family: 'Bebas Neue', cursive;
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+* {
+  font-family: 'Confortaa', Arial, sans-serif;
+}
+
+cite {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Comfortaa', Arial, sans-serif;
+}
+
+.descr {
+  font-family: 'Confortaa', Arial, sans-serif;
 }
 
 .nav-title {
   font-weight: 700;
   font-size: 30px;
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Comfortaa', Arial, sans-serif;
 }
 
 .button-text {
-  font-size: 25px;
-  /*font-family: 'Bebas Neue', cursive;*/
-  font-family: 'normandy_beach_halftone_ita', 'Bebas Nue', sans-serif;
-
+  font-size: 15px;
+  font-family: 'Comfortaa', Arial, sans-serif;
+  font-weight: 700;
 }
 
 .image-caption {
   font-size: 14px;
   font-weight: 500;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Comfortaa', Arial, sans-serif;
 }
 
 .main-title {
   font-size: 46px;
   font-weight: 700;
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Comfortaa', Arial, sans-serif;
+}
+
+h2{
+  font-size: 26px;
+  font-family: 'Comfortaa', Arial, sans-serif;
+  color: #00305B;
 }
 
 .subheader-text {
   font-size: 26px;
   font-weight: 700;
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Comfortaa', Arial, sans-serif;
 }
 
 .body-text {
   font-size: 20px;
   font-weight: 500;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Comfortaa', Arial, sans-serif;
 }
 
 .project-card-text {
@@ -61,7 +78,7 @@ body {
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Comfortaa', Arial, sans-serif;
 }
 
 .project-title {
@@ -70,17 +87,17 @@ body {
   display: -webkit-box;
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Comfortaa', Arial, sans-serif;
 }
 
 .cv-title {
   font-size: 30px;
   font-weight: 700;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Comfortaa', Arial, sans-serif;
 }
 
 .job-more {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Comfortaa', Arial, sans-serif;
   font-size: 20px;
   font-weight: 300;
 }

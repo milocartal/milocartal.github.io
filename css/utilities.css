@@ -7,8 +7,8 @@
 }
 
 .footer-icon {
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
 }
 
 a.icon-link {
@@ -29,25 +29,18 @@ a.icon-link:hover {
 /* Navbar Styling */
 
 nav {
-  width: 100%;
-  padding: 30px 50px;
+  min-width: 100px;
+  height: 100%;
+  padding: 30px 10px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
   position: fixed;
   top: 0;
   left: 0;
   background-color: white;
+  gap: 10px;
   /*background: linear-gradient(32deg, rgba(218,37,37,0.5) 0%, rgba(79,53,237,0.5) 100%);*/
-}
-
-.nav-title-link {
-  color: black;
-  text-decoration: none;
-}
-
-.nav-title-link:hover {
-  text-decoration: underline;
 }
 
 /* Small devices (portrait tablets and large phones, 800px and below) */
@@ -62,25 +55,29 @@ nav {
 /* Button Styling */
 
 a.button {
-
   color: black;
   text-decoration: none;
   width: fit-content;
   display: flex;
+  flex-direction: column;
   gap: 5px;
   align-items: center;
+  width: 80px;
+  padding: 10px 10px;
+  text-align: center;
+  border-radius: 15px;
+  transition: 0.5s;
 }
 
 a.button:hover {
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
   cursor: pointer;
+  background-color: #cde7ff;
 }
 
 
 /* Footer Styling */
 
-#footer {
+footer {
   width: 100%;
   display: flex;
   padding: 30px 50px;
@@ -102,7 +99,7 @@ a.no-underline:hover {
 
 /* Small devices (portrait tablets and large phones, 800px and below) */
 @media only screen and (max-width: 800px) {
-  #footer {
+  footer {
     padding: 20px 20px;
   }
 }
