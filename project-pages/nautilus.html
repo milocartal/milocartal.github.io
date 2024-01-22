@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="../assets/icons/logoMilo.svg" />
+    <title>Milo CARTAL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="../css/color.css" />
+    <link rel="stylesheet" href="../css/comp.css" />
+    <link rel="stylesheet" href="../css/layout.css" />
+    <link rel="stylesheet" href="../css/typography.css" />
+    <link rel="stylesheet" href="../css/utilities.css" />
+    <link rel="stylesheet" href="../css/toast.css" />
+    <link rel="stylesheet" href="./webfontkit-20230308-104456/stylesheet.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+
+    <script defer src="../js/script.js"></script>
+  </head>
+
+  <body>
+    <nav class="">
+      <a href="../index.html">
+        <img
+          src="../assets/icons/petitLogoMilo.png"
+          style="height: 60px"
+          alt="Milo CARTAL"
+        />
+      </a>
+
+      <a class="button" href="#work-section">
+        <image src="../assets/icons/developpeur.svg" class="navicon" />
+        <span class="button-text">Projets</span>
+      </a>
+
+      <a class="button" href="#cv">
+        <image src="../assets/icons/file-user-line.svg" class="navicon" />
+        <span class="button-text">CV</span>
+      </a>
+
+      <a class="button" href="#contact">
+        <image src="../assets/icons/contact.svg" class="navicon" />
+        <span class="button-text">Contact</span>
+      </a>
+    </nav>
+
+    <main id="main-content">
+      <section id="project-header">
+        <h1 class="main-title">Nautilus</h1>
+        <p class="body-text">
+          Plateforme d'apprentissage en ligne développé chez Oktopod
+        </p>
+        <image
+          class="project-header-image"
+          src="../assets/images/nautilus/logo.png"
+        />
+      </section>
+
+      <section id="project-details">
+        <h2 class="subheader-text">Détail sur le projet :</h2>
+        <div class="project-details-content">
+          <p class="body-text">
+            Lors de ma 2ème année de BUT Informatique-graphique au Puy-en-Velay
+            (Département Informatique Graphique, IUT Le Puy en Velay), je devais
+            valider un stage en entreprise de plus de 10 semaines. J'ai eu la
+            chance d'intégrer l'équipe d'Oktopod, qui par la suite, a accepté de
+            me prendre en alternance pour ma 3ème année de formation.
+          </p>
+          <p class="body-text">
+            Nautilus est une plateforme que j'ai réalisée durant mon stage. Son
+            but ? Créer un environnement d'apprentissage dynamique, interactif
+            et engageant qui s'adapte aux besoins individuels des apprenants
+            tout en favorisant la collaboration et la participation active. Il
+            fallait donc développer un espace pour les apprenants dans lequel
+            ils voient les projets qu'ils doivent faire, mais aussi un espace
+            pour les formateurs dans lequel ils peuvent gérer les promotions
+            d'apprenants et les projets.
+          </p>
+          <p class="body-text">
+            Cette plateforme est basée sur le framework Next.JS, mais nous avons
+            aussi utilisé d'autres frameworks : Tailwind CSS, tRPC, Next-Auth ou
+            encore Prisma, le tout codé en Typescript. Ici, Next.JS est la base,
+            qui nous permet de gérer le back-end et le front-end en même temps.
+            Prisma nous permet de gérer simplement la base de données liée à
+            Next-Auth, qui lui s'occupe de la gestion de compte. TRCP nous
+            permet de gérer l'API du serveur de façon sécurisée et optimisée.
+          </p>
+          <p class="body-text">
+            Ce projet m'a vraiment permis de comprendre les tenants et
+            aboutissants du métier de développeur full-stack. Ici, le client
+            était nous-même, et le cahier des charges était relativement large
+            et vague. Il a fallu partir de zéro, créer une maquette, une
+            architecture de base de données pouvant être déployée pour la
+            production. Tous ces éléments sont vraiment formateurs et m'ont
+            permis de comprendre les technologies que j'utilisais plus
+            rapidement.
+          </p>
+        </div>
+      </section>
+
+      <section
+        style="display: flex; width: 100%; justify-content: space-between"
+      >
+        <a class="button" href="../index.html#about-section">
+          <span class="button-text">Voir les autres projets</span>
+          <image
+            src="../assets/icons/svg/arrow-right.svg"
+            class="right-arrow-icon"
+          />
+        </a>
+      </section>
+    </main>
+
+    <footer id="contact">
+      <a class="icon-link" target="_blank" id="tel">
+        <image src="../assets/icons/tel.png" class="footer-icon" />
+      </a>
+
+      <a
+        class="icon-link"
+        target="_blank"
+        href="https://www.linkedin.com/in/milo-cartal-43510ouides/"
+      >
+        <image src="../assets/icons/linkedin.png" class="footer-icon" />
+      </a>
+
+      <a class="icon-link" href="mailto:milo.cartal.pro@gmail.com">
+        <image src="../assets/icons/mail.png" class="footer-icon" />
+      </a>
+
+      <a
+        class="icon-link"
+        href="https://www.instagram.com/milo.cartal/?hl=fr"
+        target="_blank"
+      >
+        <image src="../assets/icons/instagram.png" class="footer-icon" />
+      </a>
+    </footer>
+
+    <div id="snackbar">Numéro de téléphone copié</div>
+  </body>
+</html>

@@ -1,254 +1,379 @@
 <!DOCTYPE html>
 <html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./assets/icons/png/petitLogoMilo.png" />
+    <title>Milo CARTAL</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Bienvenue sur mon portfolio !" />
 
-<head>
-  <meta charset="utf-8">
-  <link rel="icon" href="./assets/icons/logoMilo.svg" />
-  <title>Milo CARTAL</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Bienvenue sur mon portfolio !" />
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="stylesheet" href="./css/typography.css" />
+    <link rel="stylesheet" href="./css/utilities.css" />
+    <link rel="stylesheet" href="./css/color.css" />
+    <link rel="stylesheet" href="./css/comp.css" />
+    <link rel="stylesheet" href="./css/toast.css" />
+    <link rel="stylesheet" href="./webfontkit-20230308-104456/stylesheet.css" />
 
-  <link rel="stylesheet" href="./css/layout.css">
-  <link rel="stylesheet" href="./css/typography.css">
-  <link rel="stylesheet" href="./css/utilities.css">
-  <link rel="stylesheet" href="./css/color.css">
-  <link rel="stylesheet" href="./css/comp.css">
-  <link rel="stylesheet" href="./webfontkit-20230308-104456/stylesheet.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css"
+    />
 
-  <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
+    <script defer src="./js/script.js"></script>
+  </head>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
-    rel="stylesheet">
+  <body>
+    <nav class="">
+      <a href="./index.html">
+        <img
+          src="./assets/icons/png/petitLogoMilo.png"
+          style="height: 60px"
+          alt="Milo CARTAL"
+        />
+      </a>
 
-  <script defer src="./js/script.js"></script>
-</head>
+      <a class="button" href="#work-section">
+        <image src="./assets/icons/svg/developpeur.svg" class="navicon" />
+        <span class="button-text">Projets</span>
+      </a>
 
-<body>
-  <nav class="">
+      <a class="button" href="#cv">
+        <image src="./assets/icons/svg/file-user-line.svg" class="navicon" />
+        <span class="button-text">CV</span>
+      </a>
 
-    <a href="./index.html">
-      <img src="./assets/icons/petitLogoMilo.png" style="height: 60px;" alt="Milo CARTAL">
-    </a>
+      <a class="button" href="#contact">
+        <image src="./assets/icons/svg/contact.svg" class="navicon" />
+        <span class="button-text">Contact</span>
+      </a>
+    </nav>
 
-    <a class="button" id="work-link">
-      <image src="./assets/icons/developpeur.svg" class="navicon" />
-      <span class="button-text">Projets</span>
-    </a>
+    <main id="main-content">
+      <span id="warning"
+        >ATTENTION, portfolio en cours de codage ! Ce n'est pas fini.</span
+      >
 
-    <a class="button" href="./information-pages/cv.html">
-      <image src="./assets/icons/file-user-line.svg" class="navicon" />
-      <span class="button-text">CV</span>
-    </a>
-
-    <a class="button" id="contact-link">
-      <image src="./assets/icons/contact.svg" class="navicon" />
-      <span class="button-text">Contact</span>
-    </a>
-
-  </nav>
-
-  <main id="main-content">
-
-    <span id="warning">ATTENTION, portfolio en cours de codage ! Ce n'est pas fini.</span>
-
-    <header id="header">
-      <div id="header-image-container">
-        <img src="./assets/images/milo-removebg.png" class="header-image" alt="">
-      </div>
-
-      <div id="header-text-container">
-        <div class="header-text">
-          <span class="main-title">
-            Bonjour, je suis<br />
-            Milo CARTAL
-          </span>
-          <div class="body-text">
-            C'est une bonne situation ça, développeur web ?
-          </div>
+      <header id="header">
+        <div id="header-image-container">
+          <img
+            src="./assets/images/milo-removebg.png"
+            class="header-image"
+            alt=""
+          />
         </div>
 
-      </div>
-    </header>
-
-    <section>
-      <h2>A propos de moi</h2>
-      <div class="about-section-content">
-        <cite>"Mais, vous savez, moi je ne crois pas qu’il y ait de bonne ou de mauvaise situation de
-          développeur web. Moi, si je devais résumer ma vie aujourd’hui avec vous, je dirais que c’est d’abord des
-          rencontres, des codeurs qui m’ont tendu la main, peut-être à un moment où je ne pouvais pas, où j’étais seul
-          devant ma console. Et c’est assez curieux de se dire que les hasards, les rencontres forgent une carrière...
-          Parce que quand on a le goût du code, quand on a le goût du développement bien fait, le beau site, parfois on
-          ne trouve pas l’interlocuteur en face, je dirais, le collègue qui vous aide à avancer. Alors ce n’est pas mon
-          cas, comme je le disais là, puisque moi au contraire, j’ai pu ; et je dis merci à la programmation, je lui dis
-          merci, je code la vie, je développe la vie… Je ne suis qu’amour ! Et finalement, quand beaucoup de
-          développeurs aujourd’hui me disent « Mais comment fais-tu pour avoir cette passion ? », eh bien je leur
-          réponds très simplement, je leur dis que c’est ce goût du code, ce goût donc qui m’a poussé aujourd’hui à
-          entreprendre des projets innovants, mais demain, qui sait, peut-être seulement à me mettre au service d'une
-          cause, à faire le don, le don de mon expertise..."</cite>
-      </div>
-    </section>
-
-    <section>
-      <h2>Expériences Professionelles</h2>
-      <article class="experience-pro">
-        <span class="info-exp">
-          <aside>
-            <h3>Developpeur web</h3>
-            <span>Stage</span>
-          </aside>
-          <aside>
-            <span>Oktopod</span>
-            <span>Depuis 2023</span>
-          </aside>
-        </span>
-        
-        
-        <p class="body-text">
-          Développement de plate-formes web pour des clients où internes à l'entreprise. Veille 
-          technique et correction de bugs.
-        </p>
-      </article>
-    </section>
-
-    <section>
-      <h2>Formations</h2>
-      <div class="about-section-content">
-        <div class="body-text">Passioné d'informatique et d'automobile, je suis motivé et
-          toujours présent pour aider les gens quand ils en ont besoin. Mon but est devenir développeur web. J'envisage
-          à terme de travailler dans l'enseignement dans le domaine du développement web.</div>
-      </div>
-    </section>
-
-    <section>
-      <h2>Compétences</h2>
-      <ul>
-        <li style="--accent-color:#f20071">
-          <div class="icon"><i class="fa-brands fa-html5"></i></div>
-          <div class="title">HTML 5</div>
-          <div class="descr">Je connais le HTML sur le bout des doigts</div>
-        </li>
-
-        <li style="--accent-color:#FCBA35">
-          <div class="icon"><i class="fa-brands fa-css3"></i></div>
-          <div class="title">CSS 3</div>
-          <div class="descr">Utiliser le CSS avec le HTML est quelque chose que je maitrise parfaitement</div>
-        </li>
-
-        <li style="--accent-color:#ffd938">
-          <div class="icon"><i class="fa-brands fa-js"></i></div>
-          <div class="title">Javascript</div>
-          <div class="descr">Intégrer du code JavaScript dans mes sites web m'est familier</div>
-        </li>
-
-        <li style="--accent-color:#60c5a6">
-          <div class="icon"><i class="fi fi-brands-typescript"></i></div>
-          <div class="title">Typescript</div>
-          <div class="descr">Je code mes projets web destinés à la production avec Typescript</div>
-        </li>
-
-        <li style="--accent-color:#0284ba">
-          <div class="icon">
-            <image src="./assets/logo_competence/trcp.svg" class="logo-comp"></image>
-          </div>
-          <div class="title">tRCP</div>
-          <div class="descr">J'utilise beaucoup cette technologie avec Next.JS et Typescriptpour faire des APIs rapides
-            et efficaces</div>
-        </li>
-
-        <li style="--accent-color:#994D7F">
-          <div class="icon"><i class="fa-brands fa-github"></i></div>
-          <div class="title">Github et Gitlab</div>
-          <div class="descr">Gérer correctement son code source et le partager sont des choses essentielles dans mon
-            travail.</div>
-        </li>
-      </ul>
-    </section>
-
-    <section id="work-section">
-      <h2>Voici quelques de mes projets :</h2>
-
-      <div class="projects-container">
-
-        <article class="project-card">
-          <img src="./assets/images/NeedForForzaTurismo.png" class="project-image">
-          <div class="project-card-text-container">
-            <div class="subheader-text project-title">Need For Forza Turismo</div>
-            <div class="body-text project-card-text">Jeux de voiture de type <i>Endless Runner</i> créer sur Unity 3D.
+        <div id="header-text-container">
+          <div class="header-text">
+            <span class="main-title">
+              Bonjour, je suis<br />
+              Milo CARTAL
+            </span>
+            <div class="body-text">
+              C'est une bonne situation ça, développeur web ?
             </div>
           </div>
-          <a class="button" href="./project-pages/nfft.html">
-            <span class="button-text">En savoir plus</span>
-            <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
-          </a>
-        </article>
+        </div>
+      </header>
 
+      <section>
+        <h2>A propos de moi</h2>
+        <div class="about-section-content">
+          <cite>
+            "Mais, vous savez, moi je ne crois pas qu’il y ait de bonne ou de
+            mauvaise situation de développeur web. Moi, si je devais résumer ma
+            vie aujourd’hui avec vous, je dirais que c’est d’abord des
+            rencontres, des codeurs qui m’ont tendu la main, peut-être à un
+            moment où je ne pouvais pas, où j’étais seul devant ma console. Et
+            c’est assez curieux de se dire que les hasards, les rencontres
+            forgent une carrière... Parce que quand on a le goût du code, quand
+            on a le goût du développement bien fait, le beau site, parfois on ne
+            trouve pas l’interlocuteur en face, je dirais, le collègue qui vous
+            aide à avancer. Alors ce n’est pas mon cas, comme je le disais là,
+            puisque moi au contraire, j’ai pu ; et je dis merci à la
+            programmation, je lui dis merci, je code la vie, je développe la
+            vie… Je ne suis qu’amour ! Et finalement, quand beaucoup de
+            développeurs aujourd’hui me disent « Mais comment fais-tu pour avoir
+            cette passion ? », eh bien je leur réponds très simplement, je leur
+            dis que c’est ce goût du code, ce goût donc qui m’a poussé
+            aujourd’hui à entreprendre des projets innovants, mais demain, qui
+            sait, peut-être seulement à me mettre au service d'une cause, à
+            faire le don, le don de mon expertise..."
+          </cite>
+        </div>
+      </section>
 
-        <article class="project-card">
-          <img src="./assets/images/infirmerie.jpg" class="project-image">
-          <div class="project-card-text-container">
-            <div class="subheader-text project-title">Escape le puy : The Nightmare</div>
-            <div class="body-text project-card-text"><b>EN COURS</b> Jeux d'énigmes à deux joueurs en VR.</div>
-          </div>
-          <a class="button" href="./project-pages/escape_le_puy_the_nightmare.html">
-            <span class="button-text">En savoir plus</span>
-            <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
-          </a>
-        </article>
+      <section id="work-section">
+        <h2>Voici quelques de mes projets :</h2>
 
-        <article class="project-card">
-          <img src="./assets/images/4_2.png" class="project-image">
-          <div class="project-card-text-container">
-            <div class="subheader-text project-title">BDE ASCII : Le Blog</div>
-            <div class="body-text project-card-text">Site web type blog pour le BDE ASCII de l'IUT du Puy-en-Velay</div>
-          </div>
-          <a class="button" href="./project-pages/bde_ascii.html">
-            <span class="button-text">En savoir plus</span>
-            <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
-          </a>
-        </article>
-
-        <article class="project-card">
-          <img src="./assets/images/url.png" class="project-image">
-          <div class="project-card-text-container">
-            <div class="subheader-text project-title">URL Shortener</div>
-            <div class="body-text project-card-text">Site web qui génère des URL raccourcis pour mettre sur vos site web
+        <div class="projects-container">
+          <article class="project-card">
+            <img
+              src="./assets/images/nautilus/logo.png"
+              class="project-image"
+              alt="Logo de la plateforme Nautilus qui représente un nautile stylisé"
+            />
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">Nautilus</div>
+              <div class="body-text project-card-text">
+                Plateforme de cours en ligne avec suivi des compétences
+                développer chez Oktopod
+              </div>
             </div>
-          </div>
-          <a class="button" href="./project-pages/url_shortener.html">
-            <span class="button-text">En savoir plus</span>
-            <image src="./assets/icons/arrow-right.svg" class="right-arrow-icon" />
-          </a>
+            <a class="button" href="./project-pages/nautilus.html">
+              <span class="button-text">En savoir plus</span>
+              <image
+                src="./assets/icons/svg/arrow-right.svg"
+                class="right-arrow-icon"
+              />
+            </a>
+          </article>
+
+          <article class="project-card">
+            <img
+              src="./assets/images/nfft/NeedForForzaTurismo.png"
+              class="project-image"
+              alt="Le menu du jeu Need For Forza Turismo avec un camion japonais au centre"
+            />
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">
+                Need For Forza Turismo
+              </div>
+              <div class="body-text project-card-text">
+                Jeux de voiture de type <i>Endless Runner</i> créer sur Unity
+                3D.
+              </div>
+            </div>
+            <a class="button" href="./project-pages/nfft.html">
+              <span class="button-text">En savoir plus</span>
+              <image
+                src="./assets/icons/svg/arrow-right.svg"
+                class="right-arrow-icon"
+              />
+            </a>
+          </article>
+
+          <article class="project-card">
+            <img
+              src="./assets/images/elp/infirmerie.jpg"
+              class="project-image"
+              alt="Une infirmerie d'un laboratoire avec des tâches de sangs au sol"
+            />
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">
+                Escape le puy : The Nightmare
+              </div>
+              <div class="body-text project-card-text">
+                <b>EN COURS</b> Jeux d'énigmes à deux joueurs en VR.
+              </div>
+            </div>
+            <a
+              class="button"
+              href="./project-pages/escape_le_puy_the_nightmare.html"
+            >
+              <span class="button-text">En savoir plus</span>
+              <image
+                src="./assets/icons/svg/arrow-right.svg"
+                class="right-arrow-icon"
+              />
+            </a>
+          </article>
+
+          <article class="project-card">
+            <img
+              src="./assets/images/url.png"
+              class="project-image"
+              alt="Little Car Game"
+            />
+            <div class="project-card-text-container">
+              <div class="subheader-text project-title">Little Car Game</div>
+              <div class="body-text project-card-text">
+                Jeu de course de voitures en 2D Top-Down créer avec Unity
+              </div>
+            </div>
+            <a class="button" href="./project-pages/url_shortener.html">
+              <span class="button-text">En savoir plus</span>
+              <image
+                src="./assets/icons/svg/arrow-right.svg"
+                class="right-arrow-icon"
+              />
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section id="cv">
+        <h2>Expériences Professionelles</h2>
+        <article class="experience-pro">
+          <span class="info-exp">
+            <div>
+              <h3>Developpeur web</h3>
+              <span>Stage et Alternance</span>
+            </div>
+            <div>
+              <span>Oktopod</span>
+              <span>Depuis 2023</span>
+            </div>
+          </span>
+
+          <p class="body-text">
+            Développement de plate-formes web pour des clients où internes à
+            l'entreprise. Veille technique et correction de bugs.
+          </p>
         </article>
 
-      </div>
+        <article class="experience-pro">
+          <span class="info-exp">
+            <div>
+              <h3>Vendeur</h3>
+              <span>CDI</span>
+            </div>
+            <div>
+              <span>CELIO Brives-Charensac</span>
+              <span>2022-2023</span>
+            </div>
+          </span>
 
-    </section>
-  </main>
+          <p class="body-text">
+            Accueil et conseille des clients, aménagement du magasin, ménage,
+            réception des colis et gestion de la réserve du magasin
+          </p>
+        </article>
 
+        <article class="experience-pro">
+          <span class="info-exp">
+            <div>
+              <h3>Technicien plateau son et lumière</h3>
+              <span>Bénévolat</span>
+            </div>
+            <div>
+              <span>Festival des Cuivres du Monastier</span>
+              <span>Août 2022 et 2023</span>
+            </div>
+          </span>
 
+          <p class="body-text">
+            Mise en place et rangement du plateau, gestion de l'écran géant,
+            rangement et organisation des flights.
+          </p>
+        </article>
+      </section>
 
-  <footer id="contact">
+      <section>
+        <h2>Formations</h2>
+        <div class="about-section-content">
+          <div class="cv-section-content">
+            <span class="cv-title">BUT Informatique Graphique</span>
+            <span class="job-more"><i>IUT Le Puy-en-Velay, 2021-2023</i></span>
+          </div>
 
-    <a class="icon-link" target="_blank" href="https://wa.me/0649572160">
-      <image src="./assets/icons/tel.png" class="footer-icon" />
-    </a>
+          <div class="cv-section-content">
+            <span class="cv-title">
+              Baccalauréat Général
+              <i style="font-weight: 500">
+                Spécialités Math - Physique Chimie - NSI
+              </i>
+            </span>
+            <span class="job-more">
+              <i> Lycée Charles & Adrien Dupuy, Le Puy-en-Velay, 2019-2021 </i>
+            </span>
+          </div>
+        </div>
+      </section>
 
-    <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/milo-cartal-43510ouides/">
-      <image src="./assets/icons/linkedin.png" class="footer-icon" />
-    </a>
+      <section>
+        <h2>Compétences</h2>
+        <ul>
+          <li style="--accent-color: #f20071">
+            <div class="icon"><i class="fa-brands fa-html5"></i></div>
+            <div class="title">HTML 5</div>
+            <div class="descr">Je connais le HTML sur le bout des doigts</div>
+          </li>
 
-    <a class="icon-link" href="mailto:milo.cartal.pro@gmail.com">
-      <image src="./assets/icons/mail.png" class="footer-icon" />
-    </a>
+          <li style="--accent-color: #fcba35">
+            <div class="icon"><i class="fa-brands fa-css3"></i></div>
+            <div class="title">CSS 3</div>
+            <div class="descr">
+              Utiliser le CSS avec le HTML est quelque chose que je maitrise
+              parfaitement
+            </div>
+          </li>
 
-    <a class="icon-link" href="https://www.instagram.com/milo.cartal/?hl=fr" target="_blank">
-      <image src="./assets/icons/instagram.png" class="footer-icon" />
-    </a>
-  </footer>
+          <li style="--accent-color: #ffd938">
+            <div class="icon"><i class="fa-brands fa-js"></i></div>
+            <div class="title">Javascript</div>
+            <div class="descr">
+              Intégrer du code JavaScript dans mes sites web m'est familier
+            </div>
+          </li>
 
-</body>
+          <li style="--accent-color: #60c5a6">
+            <div class="icon"><i class="fi fi-brands-typescript"></i></div>
+            <div class="title">Typescript</div>
+            <div class="descr">
+              Je code mes projets web destinés à la production avec Typescript
+            </div>
+          </li>
 
+          <li style="--accent-color: #0284ba">
+            <div class="icon">
+              <image
+                src="./assets/logo_competence/trcp.svg"
+                class="logo-comp"
+              ></image>
+            </div>
+            <div class="title">tRCP</div>
+            <div class="descr">
+              J'utilise beaucoup cette technologie avec Next.JS et
+              Typescriptpour faire des APIs rapides et efficaces
+            </div>
+          </li>
+
+          <li style="--accent-color: #994d7f">
+            <div class="icon"><i class="fa-brands fa-github"></i></div>
+            <div class="title">Github et Gitlab</div>
+            <div class="descr">
+              Gérer correctement son code source et le partager sont des choses
+              essentielles dans mon travail.
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer id="contact">
+      <a class="icon-link" target="_blank" id="tel">
+        <image src="./assets/icons/png/tel.png" class="footer-icon" />
+      </a>
+
+      <a
+        class="icon-link"
+        target="_blank"
+        href="https://www.linkedin.com/in/milo-cartal-43510ouides/"
+      >
+        <image src="./assets/icons/png/linkedin.png" class="footer-icon" />
+      </a>
+
+      <a class="icon-link" href="mailto:milo.cartal.pro@gmail.com">
+        <image src="./assets/icons/png/mail.png" class="footer-icon" />
+      </a>
+
+      <a
+        class="icon-link"
+        href="https://www.instagram.com/milo.cartal/?hl=fr"
+        target="_blank"
+      >
+        <image src="./assets/icons/png/instagram.png" class="footer-icon" />
+      </a>
+    </footer>
+
+    <div id="snackbar">Numéro de téléphone copié</div>
+  </body>
 </html>

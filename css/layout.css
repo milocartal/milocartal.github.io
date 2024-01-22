@@ -8,10 +8,9 @@ html {
 
 html::-webkit-scrollbar {
   /*display: none;*/
- 
-  /*background: linear-gradient(32deg, rgba(218,37,37,1) 0%, rgba(79,53,237,1) 100%);*/ 
-  width: 9px;
 
+  /*background: linear-gradient(32deg, rgba(218,37,37,1) 0%, rgba(79,53,237,1) 100%);*/
+  width: 9px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -32,9 +31,9 @@ body {
   padding-left: 150px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
+
   /*background: linear-gradient(32deg, rgba(218,37,37,1) 0%, rgba(79,53,237,1) 100%);*/
-  background-color: #f3f3f3;
+  /*background-color: #f3f3f3;*/
 }
 
 #warning {
@@ -43,16 +42,16 @@ body {
   font-size: x-large;
 }
 
-.navicon{
+.navicon {
   width: 35px;
   color: aqua;
 }
 
-.flex{
+.flex {
   display: flex;
 }
 
-.flex-col{
+.flex-col {
   display: flex;
   flex-direction: column;
 }
@@ -120,16 +119,15 @@ section {
   display: flex;
   flex-direction: column;
   gap: 15px;
-
 }
 
 .info-exp {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row-;
   justify-content: space-between;
 }
 
-aside{
+aside {
   display: flex;
   align-items: center;
   gap: 5px;
@@ -176,7 +174,6 @@ aside{
   object-fit: cover;
   object-position: center;
 }
-
 
 /* Project Pages */
 
@@ -249,6 +246,11 @@ aside{
   color: black;
 }
 
+#cv {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
 
 /* Extra Extra large devices (large laptops and desktops, 1200px and below) */
 @media only screen and (max-width: 1600px) {

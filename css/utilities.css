@@ -41,6 +41,7 @@ nav {
   background-color: white;
   gap: 10px;
   /*background: linear-gradient(32deg, rgba(218,37,37,0.5) 0%, rgba(79,53,237,0.5) 100%);*/
+  box-shadow: 5px 0 15px rgba(0, 0, 0, 0.1);
 }
 
 /* Small devices (portrait tablets and large phones, 800px and below) */
